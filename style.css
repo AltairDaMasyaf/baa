@@ -198,6 +198,11 @@
 .btn--accent {
   background: var(--color-accent);
   color: #fff;
+  cursor:auto;
+}
+.btn--accent:hover{
+  transform: translateY(0);
+  box-shadow: none;
 }
 
 .btn--accent:hover {
