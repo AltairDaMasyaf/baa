@@ -595,7 +595,7 @@ display: grid;
 
 @media screen and (max-width:768px) {
   .rm__header img{
-    width: 70px;
+    width: 60px;
   }
   .maps:nth-of-type(odd) div:nth-of-type(even){
     order: -1;

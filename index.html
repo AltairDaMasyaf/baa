@@ -12,7 +12,8 @@
 </head>
 <body>
     <!-- Nav -->
-    <nav class="nav collapsible" >
+    <nav class="nav collapsible" data-aos="fade-up"
+    data-aos-duration="1000">
         <a href="" class="nav__brand">
             <img class="logo" src="images/logo-bordered.png" alt="brand logo">
         </a>
@@ -28,7 +29,8 @@
     </nav>
 
     <!-- Hero -->
-    <section class="hero">
+    <section class="hero" data-aos="fade-right"
+    data-aos-duration="1000">
         <div class="container hero__content">
             
             <div class="hero__video">
@@ -53,7 +55,8 @@
     </section>
 
     <!-- About -->
-    <section class="about" >
+    <section class="about" data-aos="fade-left"
+    data-aos-duration="1000">
         <div class="container about__content">
             
             <img class="pp" src="./images/id.png" alt="">
@@ -83,7 +86,8 @@
     <!-- Rm -->
     <section class="rm" >
         
-        <div class="container rm__header">
+        <div class="container rm__header" data-aos="fade-up"
+        data-aos-duration="1000">
             <img src="./images/rm-header.png" alt="">
             <h2 class="rm__heading">RoadMap</h2>
             <img src="./images/rm-header.png" alt="">
@@ -91,7 +95,8 @@
 
         <div class="container rm__content">
 
-            <div class="grid grid--1x2 maps"  >
+            <div class="grid grid--1x2 maps" data-aos="fade-up"
+            data-aos-duration="1000" >
                 <div class="rm-img">
                     <img src="./images/rm-1.png" alt="">
                 </div>
@@ -104,7 +109,8 @@
                 </div>
             </div>
 
-            <div class="grid grid--1x2 maps" >
+            <div class="grid grid--1x2 maps" data-aos="fade-up"
+            data-aos-duration="1000" >
                 <div class="rm-info-2">
                     <div class="box">
                         <h2>Phase 2</h2>
@@ -117,7 +123,8 @@
                 </div> 
             </div>
 
-            <div class="grid grid--1x2 maps" >
+            <div class="grid grid--1x2 maps"data-aos="fade-up"
+            data-aos-duration="1000"  >
                 <div class="rm-img">
                     <img src="./images/rm-3.png" alt="">
                 </div>
@@ -130,7 +137,8 @@
                 </div>
             </div>
 
-            <div class="grid grid--1x2 maps" >
+            <div class="grid grid--1x2 maps" data-aos="fade-up"
+            data-aos-duration="1000" >
                 <div class="rm-info-2">
                     <div class="box">
                         <h2>Phase 4</h2>
@@ -143,7 +151,8 @@
                 </div> 
             </div>
 
-            <div class="grid grid--1x2 maps" >
+            <div class="grid grid--1x2 maps" data-aos="fade-up"
+            data-aos-duration="1000" >
                 <div class="rm-img">
                     <img src="./images/rm-5.png" alt="">
                 </div>
@@ -168,7 +177,8 @@
 
      <!-- Audit -->
     <section class="audit">
-        <div class="container audit__content" >
+        <div class="container audit__content" data-aos="fade-up"
+        data-aos-duration="1000" >
             
             <h1 class="audit__title">Audit</h1>
            
@@ -218,6 +228,9 @@
   
 
 <script src="./script.js"></script>
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 </body>
 </html>
