@@ -48,12 +48,7 @@
 
   html {
     font-size: 62.5%;
-    background: url(./images/bg-4x.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
   }
   
   img {
@@ -64,7 +59,11 @@
     font-family:"baa";
     font-size: 2rem;
     line-height: 1.5;
-    position: relative;
+    background: url(./images/bg-4x.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 
   
