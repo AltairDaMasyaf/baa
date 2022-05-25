@@ -49,6 +49,11 @@
   html {
     font-size: 62.5%;
     scroll-behavior: smooth;
+    /* background: url(./images/bg-4x.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
   }
   
   img {
@@ -59,11 +64,11 @@
     font-family:"baa";
     font-size: 2rem;
     line-height: 1.5;
-    background: url(./images/bg-4x.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background-image: url(./images/bg-4x.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    background-position: center;
   }
 
   
